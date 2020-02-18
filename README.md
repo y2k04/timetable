@@ -9,6 +9,9 @@ No more you have to set your timetable as your desktop wallpaper. You can now se
 
 ## Patch Notes
 
+### v1.6
+- Improved Timetable import (Note: need to fix PDF crop and resizer)
+
 ### v1.5
 - Added Timetable import
 - Added On-Startup link
