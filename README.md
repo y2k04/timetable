@@ -5,8 +5,6 @@ No more you have to set your timetable as your desktop wallpaper. You can now se
 
 [Download Timetable!](https://bluejay113.github.io/timetable/Timetable.zip)
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O4O51FAUE)
-
 ## Patch Notes
 
 ### v1.6
