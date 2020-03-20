@@ -9,7 +9,7 @@ No more you have to set your timetable as your desktop wallpaper. You can now se
 
 ### v1.7
  - Added multi-monitor support (Un-tested!)
-Note: Use CTRL+1,2,3,4,5,6,7,8,9 to move Timetable to different windows.
+*Note: Use CTRL+1,2,3,4,5,6,7,8,9 to move Timetable to different windows.
 
 ### v1.6
 - Improved Timetable import (Note: need to fix PDF crop and resizer)
