@@ -7,6 +7,10 @@ No more you have to set your timetable as your desktop wallpaper. You can now se
 
 ## Patch Notes
 
+### v1.8
+ - Added Class List import and popup window.
+***Note: Use CTRL+Home to open Class List window.***
+
 ### v1.7
  - Added multi-monitor support
  
