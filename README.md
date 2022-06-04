@@ -7,7 +7,7 @@ No more you have to set your timetable as your desktop wallpaper. You can now se
 
 ## Patch Notes
 
-### v1.10.2
+### v1.9.2
  - Added context menu
  - Added settings window
  - Added window dragging (saving the window position is a work in progress)
@@ -15,7 +15,7 @@ No more you have to set your timetable as your desktop wallpaper. You can now se
  
  ***Note: Press alt to open context menu.***
 
-### v1.9
+### v1.8.1
  - Fixed User Profile finding bug
 
 ### v1.8
