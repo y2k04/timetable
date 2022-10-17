@@ -5,6 +5,26 @@ Have your Timetable as a window on your computer instead of your desktop wallpap
 
 ## Patch Notes
 
+### v3.0.0
+- Rewrote the entire program
+- Added a more graphical first time setup
+- Added cropping
+- Added a menu bar _(which appears when the program is focused)_
+- Added a minimise and exit button
+- Replaced the Syncfusion.PDF library with _Docnet.Core_ 
+- Moved the timetable and class list image location to the `AppData\Roaming` folder instead of using the application's folder
+- Added last modified dates which are stored in the registry under `HKEY_CURRENT_USER\SOFTWARE\Timetable`
+- Changed the icon for the program
+- Changed the application font from _Microsoft Sans Serif_ to _Segoe UI_
+
+#### Bug fixes
+- Fixed the rapid relaunching to find the top-right corner of the screen (it was caused by a lazy exception fix I made 😂)
+- Fixed the positioning of the Timetable window whenever the screen changes orientation (for example: rotating to portrait and then back to landscape would cause the window to move to the centre of the screen, instead of the corner)
+- Fixed the application making the timetable and class list image read only when the program was open (it now stores it in memory)
+
+#### Removed features
+- Keyboard shortcuts (will be reimplemented in the next minor release)
+
 ### v1.9.2
  - Added context menu
  - Added settings window
