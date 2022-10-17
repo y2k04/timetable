@@ -1,3 +1,5 @@
+# Timetable by y2k04
+
 Have your Timetable as a window on your computer instead of your desktop wallpaper!
 
 ### Compatibility
