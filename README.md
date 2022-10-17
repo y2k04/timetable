@@ -17,7 +17,7 @@ Have your Timetable as a window on your computer instead of your desktop wallpap
 - Added cropping
 - Added a menu bar _(which appears when the program is focused)_
 - Added a minimise and exit button
-- Replaced the Syncfusion.PDF library with _Docnet.Core_ 
+- Replaced the *Syncfusion.PDF* library with _Docnet.Core_ 
 - Moved the timetable and class list image location to the `AppData\Roaming` folder instead of using the application's folder
 - Added last modified dates which are stored in the registry under `HKEY_CURRENT_USER\SOFTWARE\Timetable`
 - Changed the icon for the program
