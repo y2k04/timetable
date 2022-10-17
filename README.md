@@ -1,7 +1,10 @@
-
 Have your Timetable as a window on your computer instead of your desktop wallpaper!
 
-[Download Timetable!](https://y2k04.github.io/timetable/Timetable.zip)
+### Compatibility
+*Windows 8.1* to *Windows 11*
+(Tested on Win10 and Win11)
+
+### [Download (Latest)](https://github.com/y2k04/timetable/releases/latest/download/Timetable.zip)
 
 ## Patch Notes
 
