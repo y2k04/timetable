@@ -20,8 +20,11 @@ Have your Timetable as a window on your computer instead of your desktop wallpap
 ![image](https://user-images.githubusercontent.com/29883287/197338320-ac08d3a8-5851-4ca5-ac93-d40a615354e9.png)
 ![image](https://user-images.githubusercontent.com/29883287/197338323-5a33b200-e6e2-483d-86ce-ad6038a6e83e.png)
 
-
 ## Patch Notes
+
+### v3.0.1
+- Fixed null reference error when retrieving registry value
+- Fixed package retrieval when compiling Timetable yourself
 
 ### v3.0.0
 - Rewrote the entire program
