@@ -11,6 +11,16 @@ Have your Timetable as a window on your computer instead of your desktop wallpap
 
 ### [Download (Latest)](https://github.com/y2k04/timetable/releases/latest/download/Timetable.zip)
 
+## Screenshots
+![image](https://user-images.githubusercontent.com/29883287/197338291-92499efb-d727-44b9-85c2-0159a4c952a9.png)
+![image](https://user-images.githubusercontent.com/29883287/197338299-947fd1e3-b277-4e8b-957c-9c40b294d8ef.png)
+![image](https://user-images.githubusercontent.com/29883287/197338304-4455423b-f923-4983-be14-48c6096f7670.png)
+![image](https://user-images.githubusercontent.com/29883287/197338312-1bee1488-58a5-426f-bd63-ca3bb6c2d90b.png)
+![image](https://user-images.githubusercontent.com/29883287/197338317-d3eea8f5-f475-403b-9eab-ef119e5fc8d6.png)
+![image](https://user-images.githubusercontent.com/29883287/197338320-ac08d3a8-5851-4ca5-ac93-d40a615354e9.png)
+![image](https://user-images.githubusercontent.com/29883287/197338323-5a33b200-e6e2-483d-86ce-ad6038a6e83e.png)
+
+
 ## Patch Notes
 
 ### v3.0.0
