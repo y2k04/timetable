@@ -43,8 +43,8 @@
     <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Docnet.Core, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Docnet.Core.2.4.0-alpha.4\lib\netstandard2.0\Docnet.Core.dll</HintPath>
+    <Reference Include="Docnet.Core, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Docnet.Core.2.3.1\lib\netstandard2.0\Docnet.Core.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
@@ -52,15 +52,9 @@
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
-    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
-    </Reference>
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -132,6 +126,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -153,11 +148,11 @@
     <EmbeddedResource Include="Resources\icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\Docnet.Core.2.4.0-alpha.4\build\net45\Docnet.Core.targets" Condition="Exists('..\packages\Docnet.Core.2.4.0-alpha.4\build\net45\Docnet.Core.targets')" />
+  <Import Project="..\packages\Docnet.Core.2.3.1\build\net45\Docnet.Core.targets" Condition="Exists('..\packages\Docnet.Core.2.3.1\build\net45\Docnet.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Docnet.Core.2.4.0-alpha.4\build\net45\Docnet.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Docnet.Core.2.4.0-alpha.4\build\net45\Docnet.Core.targets'))" />
+    <Error Condition="!Exists('..\packages\Docnet.Core.2.3.1\build\net45\Docnet.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Docnet.Core.2.3.1\build\net45\Docnet.Core.targets'))" />
   </Target>
 </Project>
