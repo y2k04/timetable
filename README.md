@@ -7,6 +7,8 @@ Have your Timetable as a window on your computer instead of your desktop wallpap
 
 (Tested on Win10 x64 and Win11 x64)
 
+- .net Framework 4.8 required.
+
 ### [Download (Latest)](https://github.com/y2k04/timetable/releases/latest/download/Timetable.zip)
 
 ## Patch Notes
