@@ -61,7 +61,9 @@ namespace Timetable
             
             if (!Directory.Exists(appdata))
                 Directory.CreateDirectory(appdata);
-
+            
+            Registry.CurrentUser.CreateSubKey(@"SOFTWARE\Timetable", true);
+            
             if (!File.Exists($@"{appdata}\timetable.png") || !File.Exists($@"{appdata}\classList.png"))
                 Application.Run(new FTS());
             Application.Run(new View());
